@@ -25,8 +25,7 @@ const default_config = {
             {
               name: "reaper",
               url: "https://reaperscans.com",
-              icon:"https://www.google.com/s2/favicons?domain=reaperscans.com",
-              icon_color: palette.peach,
+              icon: getDirectFavicon("https://reaperscans.com"),
             },
             {
               name: "musicForProgramming();",
