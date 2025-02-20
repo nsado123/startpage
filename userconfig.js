@@ -25,7 +25,6 @@ const default_config = {
             {
               name: "reaper",
               url: "https://reaperscans.com",
-              icon: "src/img/icons/reaperscans.png",
             },
             {
               name: "musicForProgramming();",
