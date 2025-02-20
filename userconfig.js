@@ -1,32 +1,30 @@
 // latte / frappe / macchiato / mocha
-const palette = macchiato;
+const palette = mocha;
 
 const default_config = {
   overrideStorage: true,
   temperature: {
-    location: "London",
-    scale: "C",
+    location: "Los Angeles",
+    scale: "F",
   },
   clock: {
     format: "h:i p",
     iconColor: palette.maroon,
   },
   disabled: [],
-  fastlink: "https://app.raindrop.io",
+  fastlink: "github.com/nsado123?tab=repositories",
   openLastVisitedTab: true,
   tabs: [
     {
-      name: "myself",
+      name: "comics",
       background_url: "src/img/banners/cbg-09.gif",
       categories: [
         {
-          name: "bookmarks",
+          name: "scans",
           links: [
             {
-              name: "raindrop",
-              url: "https://app.raindrop.io",
-              icon: "droplet-bolt",
-              icon_color: palette.green,
+              name: "reaper",
+              url: "https://reaperscans.com"
             },
             {
               name: "musicForProgramming();",
