@@ -73,28 +73,34 @@ const default_config = {
           ],
         },
         {
-          name: "workspace",
+          name: "novels",
           links: [
             {
-              name: "gmail",
+              name: "Wuxia World",
               url: "https://mail.google.com",
               icon: "brand-gmail",
+              icon_color: palette.rosewater,
+            },
+            {
+              name: "Ranobes",
+              url: "https://calendar.google.com",
+              icon: "calendar-filled",
               icon_color: palette.green,
             },
             {
-              name: "calendar",
-              url: "https://calendar.google.com",
-              icon: "calendar-filled",
-              icon_color: palette.peach,
-            },
-            {
-              name: "sheets",
+              name: "Webnovel",
               url: "https://docs.google.com/spreadsheets",
               icon: "table",
-              icon_color: palette.red,
+              icon_color: palette.sapphire,
             },
             {
-              name: "drive",
+              name: "World",
+              url: "https://drive.google.com/drive/home",
+              icon: "brand-google-drive",
+              icon_color: palette.blue,
+            },
+            {
+              name: "World",
               url: "https://drive.google.com/drive/home",
               icon: "brand-google-drive",
               icon_color: palette.blue,
@@ -139,7 +145,7 @@ const default_config = {
       ],
     },
     {
-      name: "dev",
+      name: "comics",
       background_url: "src/img/banners/cbg-07.gif",
       categories: [
         {
@@ -226,7 +232,7 @@ const default_config = {
       ],
     },
     {
-      name: "chi ll",
+      name: "novels",
       background_url: "src/img/banners/cbg-08.gif",
       categories: [
         {
